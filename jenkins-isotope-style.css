@@ -1,76 +1,35 @@
-body {
-  background: #63818a;
-  background: -moz-linear-gradient(top, #63818a 0%, #73939b 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #63818a), color-stop(100%, #73939b));
-  background: -webkit-linear-gradient(top, #63818a 0%, #73939b 100%);
-  background: -o-linear-gradient(top, #63818a 0%, #73939b 100%);
-  background: -ms-linear-gradient(top, #63818a 0%, #73939b 100%);
-  background: linear-gradient(top, #63818a 0%, #73939b 100%); }
+/*
+Syntax error: Invalid CSS after "": expected selector or at-rule, was "<<<<<<< HEAD"
+        on line 1 of jenkins-isotope-style.scss
 
-h1, h2, h3, h4, h5, h6 {
-  color: #4f7b94; }
+1: <<<<<<< HEAD
+2: $headings-color: #4f7b94;
+3: $body-background: #63818A;
+4: $body-background-bottom: #73939B;
+5: $candy-stripe1: #fff;
+6: $candy-stripe2: #e5e5e5;
 
-#top-panel {
-  background: none; }
-  #top-panel td#login-field span a {
-    background: none; }
-  #top-panel td #searchform a {
-    background: none;
-    height: auto;
-    width: auto; }
-  #top-panel td > a {
-    background: url("http://xrono.isotope11.com/system/site_logos/1/original/isotope_logo.png?1330143115") 0 0 no-repeat;
-    display: block;
-    width: 130px;
-    height: 40px;
-    margin: 10px 0 10px 10px; }
-    #top-panel td > a img {
-      display: none; }
-
-#projectstatus {
-  background: #fff; }
-  #projectstatus tr:nth-of-type(odd) {
-    background-color: #e5e5e5; }
-    #projectstatus tr:nth-of-type(odd):hover {
-      background-color: #f0f0f0; }
-  #projectstatus tr:nth-of-type(even) {
-    background-color: white; }
-    #projectstatus tr:nth-of-type(even):hover {
-      background-color: #f0f0f0; }
-
-#left-top-nav {
-  border-left: none; }
-
-#side-panel {
-  background-color: #fff; }
-  #side-panel > div:not(#navigation) {
-    display: none; }
-  #side-panel .task a {
-    display: inline-block;
-    text-decoration: none;
-    width: 10%; }
-    #side-panel .task a + a {
-      width: 83%;
-      padding: 4px; }
-      #side-panel .task a + a:hover {
-        background-color: #e5e5e5; }
-    #side-panel .task a:hover {
-      text-decoration: underline; }
-
-#main-panel {
-  background: #fff; }
-  #main-panel > h1 {
-    margin-top: 0; }
-
-#main-table {
-  border-top: 0;
-  border-bottom: 0; }
-
-#description div {
-  font-size: 1.3em; }
-
-#footer {
-  border-top: 1px solid #ccc; }
-
-#view-message #description a img {
-  padding-right: 4px; }
+Backtrace:
+jenkins-isotope-style.scss:1
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/scss/parser.rb:1146:in `expected'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/scss/parser.rb:1084:in `expected'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/scss/parser.rb:28:in `parse'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/engine.rb:342:in `_to_tree'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/engine.rb:315:in `_render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/engine.rb:262:in `render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `each'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:283:in `block in watch'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.12/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.12/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.12/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.12/vendor/listen/lib/listen/adapters/polling.rb:56:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.12/vendor/listen/lib/listen/adapters/polling.rb:56:in `poll'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.12/vendor/listen/lib/listen/adapters/polling.rb:32:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"\": expected selector or at-rule, was \"<<<<<<< HEAD\"\A         on line 1 of jenkins-isotope-style.scss\A \A 1: <<<<<<< HEAD\A 2: $headings-color: #4f7b94;\A 3: $body-background: #63818A;\A 4: $body-background-bottom: #73939B;\A 5: $candy-stripe1: #fff;\A 6: $candy-stripe2: #e5e5e5;"; }
