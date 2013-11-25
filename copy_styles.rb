@@ -4,7 +4,7 @@
 `git checkout gh-pages`
 `git fetch origin`
 `git merge origin/gh-pages`
-`cp C:\\tmp\\jenkins-isotope-style\jenkins-isotope-style.css .\\`
+`cp C:\\tmp\\jenkins-isotope-style\\jenkins-isotope-style.css .\\`
 `git add jenkins-isotope-style.css`
 `git commit -m"Updated styles"`
 `git push origin gh-pages`
