@@ -4,7 +4,19 @@ $body-background-bottom: #73939B;
 $candy-stripe1: #fff;
 $candy-stripe2: #e5e5e5;
 $candy-stripe-hover: #f0f0f0;
-$logo: "http://xrono.isotope11.com/system/site_logos/1/original/isotope_logo.png?1330143115";
+$logo: "http://xxyy.github.io/jenkins-isotope-style/xxyy_jenkins_logo.png";
+
+#footer a, #htmlAudioDisabled a, #htmlAudioEnabled a {
+    color: white;
+}
+
+#footer a:visited, #htmlAudioDisabled a:visited, #htmlAudioEnabled a:visited {
+    color: white;
+}
+
+#footer a:hover, #htmlAudioDisabled a:hover, #htmlAudioEnabled a:hover {
+    color: #E6E6E6;
+}
 
 body {
 	background: $body-background;
